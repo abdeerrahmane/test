@@ -6,6 +6,7 @@
   "scripts": {
     "start": "npm run lite",
     "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass -o css/ css/" ,
     "lite": "lite-server"
   },
   "repository": {
@@ -13,7 +14,7 @@
     "url": "git+https://github.com/abdeerrahmane/test.git"
   },
   "author": "",
-  "homepage": "https://abdeerrahmane.github.io/test/" , 
+  "homepage": "https://abdeerrahmane.github.io/test/",
   "license": "ISC",
   "devDependencies": {
     "lite-server": "^2.5.4"
@@ -23,6 +24,10 @@
     "bootstrap-social": "^5.1.1",
     "font-awesome": "^4.7.0",
     "jquery": "^3.3.1",
+    "node-sass": "^4.14.1",
     "popper.js": "^1.12.9"
+  },
+  "bugs": {
+    "url": "https://github.com/abdeerrahmane/test/issues"
   }
 }
